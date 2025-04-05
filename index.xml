@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://localhost:1313/</link>
+    <link>https://fossfo.org/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fossfo.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/index-about/</link>
+      <link>https://fossfo.org/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/index-about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/fossfo_v1.png&#34; alt=&#34;FOSSFO logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-free-open-source-spaceflight-organization&#34;&gt;The Free, Open Source SpaceFlight Organization&lt;/h1&gt;</description>
+      <guid>https://fossfo.org/index-about/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://fossfo.org/fossfo_v1.png&#34; alt=&#34;FOSSFO logo&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-free--open-source-space-flight-organization&#34;&gt;The Free &amp;amp; Open Source Space Flight Organization&lt;/h1&gt;&#xA;&lt;div style=&#34;position: relative; height:80dvh; overflow:auto;&#34;&gt; &#xA;  &lt;iframe &#xA;    src=&#34;https://app.formbricks.com/s/cm94m0uaz78b5ye01v3xwznhw?embed=true&#34; &#xA;    frameborder=&#34;0&#34; style=&#34;position: absolute; left:0; top:0; width:100%; height:100%; border:0;&#34;&gt;&#xA;  &lt;/iframe&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>About FOSSFO</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://fossfo.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://fossfo.org/about/</guid>
       <description>&lt;h1 id=&#34;vision&#34;&gt;Vision&lt;/h1&gt;&#xA;&lt;p&gt;Big thinkers, innovating and reaching for the stars from basements and garages, launching spaceflight to new heights with their inventions and shared ideas.&lt;/p&gt;&#xA;&lt;h1 id=&#34;mission&#34;&gt;Mission&lt;/h1&gt;&#xA;&lt;p&gt;To create a community and open source tools that spark interest and creativity in modern spaceflight.&lt;/p&gt;&#xA;&lt;h1 id=&#34;founders&#34;&gt;Founders&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://zachogden.com/&#34;&gt;Zach&lt;/a&gt;, &lt;a href=&#34;https://linktr.ee/thecitizenastronaut&#34;&gt;The Citizen Astronaut&lt;/a&gt; and &lt;a href=&#34;https://www.brandonlichtenwalner.com/&#34;&gt;Brandon&lt;/a&gt;, the Sovereign Sysadmin founded FOSSFO in April 2025. After seeing his first in-person shuttle launch, Zach was immediately hooked on spaceflight and began sharing his new passion on &lt;a href=&#34;https://www.tiktok.com/@thecitizenastronaut&#34;&gt;TikTok&lt;/a&gt; and elsewhere. He quickly enlisted the help of Brandon, a former colleague with a huge passion for Linux and open source. The pair had been discussing starting an open source project for several years, and this is the one that finally launched!&lt;/p&gt;</description>
     </item>
   </channel>
