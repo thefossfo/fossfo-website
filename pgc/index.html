@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 17.5px;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Personal Ground Control (PGC)</title>
+    <meta name="description" content="About The Personal Ground Control System, or PGC, aims to enable everyday users as well as hobby rocket enthusiasts and even professionals with minimal funding …">
+    <meta name="keywords" content='FOSSFO, Free Open Source Spaceflight Organization, Free Open Source Space Flight Organization'>
+
+    <meta property="og:url" content="https://fossfo.org/pgc/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Personal Ground Control (PGC)">
+    <meta property="og:description" content="About The Personal Ground Control System, or PGC, aims to enable everyday users as well as hobby rocket enthusiasts and even professionals with minimal funding …">
+    <meta property="og:image" content="https://fossfo.org/">
+    <meta property="og:image:secure_url" content="https://fossfo.org/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Personal Ground Control (PGC)">
+    <meta name="twitter:description" content="About The Personal Ground Control System, or PGC, aims to enable everyday users as well as hobby rocket enthusiasts and even professionals with minimal funding …">
+    <meta property="twitter:domain" content="https://fossfo.org/pgc/">
+    <meta property="twitter:url" content="https://fossfo.org/pgc/">
+    <meta name="twitter:image" content="https://fossfo.org/">
+
+    
+    <link rel="canonical" href="https://fossfo.org/pgc/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js" integrity="sha256-oDbr6SwX6j8MB3YcITW4K&#43;xvN8jvt/Sd2tHyjCL8R2k="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://fossfo.org/"></a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://fossfo.org/" aria-label="" ><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://fossfo.org/pgc/" aria-label="" ><span data-feather='crosshair'></span> PGC </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://fossfo.org/about/" aria-label="" ><span data-feather='info'></span> About </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://fossfo.org/" ><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://fossfo.org/pgc/" ><span data-feather='crosshair'></span> PGC </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://fossfo.org/about/" ><span data-feather='info'></span> About </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>Personal Ground Control (PGC)</h1>
+    </div>
+
+    <div class="post-content">
+        <h2 id="about">About</h2>
+<p>The Personal Ground Control System, or <a href="https://github.com/thefossfo/pgc">PGC</a>, aims to enable everyday users as well as hobby rocket enthusiasts and even professionals with minimal funding to monitor rocket launches like the pros. It is designed to be highly modular and confiurable to quickly and easily adapt to a variety of use cases.</p>
+<h2 id="existing-features">Existing features</h2>
+<p>The beta setup for PGC consists of a screen and a camera. That could be a phone, tablet, etc, but the prototype uses a laptop and a USB webcam. It uses Apache Web Server to serve static HTML, CSS and JavaScript that is displayed in a fullscreen browser window. It is designed to monitor <em>public</em> rocket launches, but with a little tweaking could be modified for private/personal launches.</p>
+<p>The window is broken up into 4 quads, each one displaying relevant information about the launch.</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>4</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="quad-1">Quad 1</h3>
+<p>This section uses <a href="https://cloud.google.com/apis">Goople APIs</a> to comb a predefined list of relevant YouTube channels and lists any livestreams that are available in a dropdown. When a livestream is selected, it is displayed.</p>
+<h3 id="quad-2">Quad 2</h3>
+<p>This section connects to the user&rsquo;s camera, and can dynamically switch between camera sources. It also has built in camera controls like zoom, etc.</p>
+<h3 id="quad-3">Quad 3</h3>
+<p>This quad uses <a href="https://thespacedevs.com/">The Space Devs</a> <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> to pull data for all upcoming launches, and then lists them in a dropdown. When a launch is selected, it displays data about the launch, uncluding date and time, location, description, etc. It also uses the <a href="https://open-meteo.com/">Open-meto weather API</a> to pull and compare current and predicted weather data for the launch time.</p>
+<h3 id="quad-4">Quad 4</h3>
+<p>This is the most unique section of PGC, and displays data relevant to the user. It uses GPS to calculate the user&rsquo;s distance to the launch pad using the <a href="https://en.wikipedia.org/wiki/Haversine_formula">Haversine formula</a> and displays interesting information like how long it would take sound from the rocket to reach the user. It also displays weather data relevant to the user&rsquo;s location so that they can compare it with the launch site. Providing information relevant to the user&rsquo;s location will enable remote viewing of rocket launches, even if the user is too far away to see the launch.</p>
+<h2 id="plannedupcoming-features">Planned/upcoming features</h2>
+<h3 id="ar-overlay">AR Overlay</h3>
+<p>Eventually, the user&rsquo;s camera view will have an AR overlay and possibly use AI to calculate things like the rocket&rsquo;s speed and trajectory. It could also color code a trajectory line to distinguis different stages of the rocket like booster seperation and SECO.</p>
+<h3 id="pan-tilt-camera">Pan-Tilt camera</h3>
+<p>Eventually, the camera on the beta setup will incorporate a Pan-Tilt Unit, that with a little coding, will enable the camera to automatically track the rocket as it takes off.</p>
+<h3 id="automatic-launchpad-detection">Automatic launchpad detection</h3>
+<p>Using the Pan-Tilt Unit, as well as GPS and compass data, the beta setup will be able to calculate it&rsquo;s relevant location to the launch pad and automatically find and zoom in on it.</p>
+<h3 id="ai-enabled-tracking">AI Enabled Tracking</h3>
+<p>Once the pan tilt unit has been implemented and tested, the next phase will be to implement AI enabled tracking of the launch, and in conjunction with AR will be able to calculate the rocket&rsquo;s speed and trajectory and possibly even compare it with planned flight data and calculate variances. Data like this could be aggregrated into a server, and with the help of multiple PGC modules from varying locations, the data could provide valuable insights about the launch that might not have been noticed or tracked elsewhere.</p>
+
+    </div>
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+</div>
+
+
+
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 FOSSFO</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>
